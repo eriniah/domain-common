@@ -1,4 +1,4 @@
-package com.amack.domain.common;
+package com.amack.ddd.common;
 
 /**
  * An object in the domain model that has an identifier

@@ -1,4 +1,4 @@
-package com.amack.domain.common
+package com.amack.ddd.common
 
 import spock.lang.Specification
 
