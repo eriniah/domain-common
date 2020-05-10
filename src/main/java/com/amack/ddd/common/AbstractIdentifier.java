@@ -49,6 +49,10 @@ public abstract class AbstractIdentifier implements Identifier
 
 	private void setId(String id)
 	{
+		if (null == id || id.isBlank())
+		{
+			throw new NullPointerException("The identifier cannot be null");
+		}
 		this.id = id.trim();
 	}
 

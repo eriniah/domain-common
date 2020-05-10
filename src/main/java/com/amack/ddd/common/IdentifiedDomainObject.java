@@ -9,5 +9,5 @@ public interface IdentifiedDomainObject
 	 * Get the identifier for the object
 	 * @return the objects identifier
 	 */
-	AbstractIdentifier getId();
+	Identifier getId();
 }

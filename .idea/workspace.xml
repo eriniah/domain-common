@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38853ccd-d14c-4224-820b-df1015ba171b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/amack/ddd/common/EntitySpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/amack/ddd/common/TestFactory.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amack/domain/common/AbstractIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/AbstractIdentifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amack/domain/common/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amack/domain/common/IdentifiedDomainObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/IdentifiedDomainObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amack/domain/common/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/Identifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/amack/domain/common/AbstractIdentifierSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/amack/ddd/common/AbstractIdentifierSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/AbstractIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/AbstractIdentifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/IdentifiedDomainObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amack/ddd/common/IdentifiedDomainObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/amack/ddd/common/AbstractIdentifierSpec.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/amack/ddd/common/AbstractIdentifierSpec.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="507" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -57,13 +57,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Groovy" />
   </component>
-  <component name="RunManager" selected="Gradle.AbstractIdentifierSpec.Id is set">
+  <component name="RunManager" selected="Gradle.EntitySpec">
     <configuration name="AbstractIdentifierSpec" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.amack.domain.common.AbstractIdentifierSpec&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.amack.ddd.common.AbstractIdentifierSpec&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -78,12 +78,71 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AbstractIdentifierSpec.Id is set" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AbstractIdentifierSpec.#a == #b is #result" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.amack.domain.common.AbstractIdentifierSpec.Id is set&quot; --stacktrace" />
+        <option name="scriptParameters" value="--tests &quot;com.amack.ddd.common.AbstractIdentifierSpec.#a == #b is #result&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AbstractIdentifierSpec.#id == #b is #result" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.amack.ddd.common.AbstractIdentifierSpec.#id == #b is #result&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DomainCommon [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EntitySpec" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.amack.ddd.common.EntitySpec&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -100,8 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AbstractIdentifierSpec.Id is set" />
+        <item itemvalue="Gradle.EntitySpec" />
         <item itemvalue="Gradle.AbstractIdentifierSpec" />
+        <item itemvalue="Gradle.AbstractIdentifierSpec.#a == #b is #result" />
+        <item itemvalue="Gradle.AbstractIdentifierSpec.#id == #b is #result" />
+        <item itemvalue="Gradle.DomainCommon [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -117,5 +179,35 @@
       <updated>1583072478259</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3286" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1588942529144">
+      <screen x="2560" y="209" width="1920" height="1040" />
+    </state>
+    <state x="3286" y="429" key="#com.intellij.ide.util.MemberChooser/2560.209.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1588942529144" />
+    <state width="2517" height="559" key="GridCell.Tab.0.bottom" timestamp="1588970075923">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="559" key="GridCell.Tab.0.bottom/2560.209.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1588970075923" />
+    <state width="2517" height="559" key="GridCell.Tab.0.center" timestamp="1588970075923">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="559" key="GridCell.Tab.0.center/2560.209.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1588970075923" />
+    <state width="2517" height="559" key="GridCell.Tab.0.left" timestamp="1588970075923">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="559" key="GridCell.Tab.0.left/2560.209.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1588970075923" />
+    <state width="2517" height="559" key="GridCell.Tab.0.right" timestamp="1588970075923">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="559" key="GridCell.Tab.0.right/2560.209.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1588970075923" />
+    <state x="3016" y="195" width="1258" height="758" maximized="true" key="dock-window-1" timestamp="1588942843918">
+      <screen x="2560" y="209" width="1920" height="1040" />
+    </state>
+    <state x="3016" y="195" width="1258" height="758" maximized="true" key="dock-window-1/2560.209.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1588942843918" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/domain_common$EntitySpec.ic" NAME="EntitySpec Coverage Results" MODIFIED="1588942830786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/domain_common$AbstractIdentifierSpec.ic" NAME="AbstractIdentifierSpec Coverage Results" MODIFIED="1588941710403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
